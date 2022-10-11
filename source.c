@@ -21,3 +21,12 @@ public:
         cout << "a is " << a << " b is " << b << endl;
     }
 };
+
+int main()
+{
+    test t1(500, 1000);
+    test t2(t1);
+    t2.display();
+    t2.display();
+    return 0;
+}
